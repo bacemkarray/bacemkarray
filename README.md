@@ -15,6 +15,7 @@ My name is Bacem, and I'm studying Computer Engineering at McMaster University.
 - Soccer
 - Swimming
 - Rock climbing
+- Flying
 - Travelling
 - Video games
 
