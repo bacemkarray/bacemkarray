@@ -1,6 +1,22 @@
  # Bacem Karray
 
-Computer Engineering student at McMaster University building projects across GPU programming, machine learning systems, agentic workflows, and edge AI.
+Hey there, thanks for checking out my GitHub profile!
+
+My name is Bacem, and I'm studying Computer Engineering at McMaster University.
+
+**Technical Interests:**
+- Agentic Systems
+- Embodied AI (especially autonomous vehicles)
+- AI infrastructure
+- LLM/VLM inference
+- GPU programming
+
+**Hobbies:**
+- Soccer
+- Swimming
+- Rock climbing
+- Travelling
+- Video games
 
 ---
 
