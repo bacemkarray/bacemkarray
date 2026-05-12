@@ -1,18 +1,14 @@
  # Bacem Karray
 
-Computer Engineering student at McMaster University building projects across GPU programming, machine learning systems, agentic workflows, retrieval systems, and applied computer vision.
-
-This GitHub is my project portfolio: a record of the systems I build to learn deeply, test ideas, and turn technical concepts into working software.
+Computer Engineering student at McMaster University building projects across GPU programming, machine learning systems, agentic workflows, and edge AI.
 
 ---
 
-## Featured Projects
+## Recent Projects
 
 ### 1. [Ray Tracer](https://github.com/bacemkarray/ray-tracing)
 
 A C++ path tracer with both CPU and CUDA renderers. The project implements recursive ray scattering, antialiasing, gamma correction, depth-of-field camera controls, and multiple material types including diffuse, metal, and dielectric surfaces.
-
-**Why it matters:** This project connects graphics programming with GPU acceleration. The CUDA renderer parallelizes work across pixels, making it a practical comparison between a straightforward CPU renderer and a GPU implementation of the same rendering logic.
 
 **Tech:** C++, CUDA, CURAND, Make, NVIDIA Nsight
 
@@ -22,17 +18,13 @@ A C++ path tracer with both CPU and CUDA renderers. The project implements recur
 
 A benchmark for parameter-efficient fine-tuning of a 7B language model on BBC XSum summarization. It compares LoRA and QLoRA across quality, training time, VRAM usage, and distributed training behavior.
 
-**Why it matters:** This project explores how much task performance can be recovered while freezing almost all of a large model's parameters. It includes adapter-based fine-tuning, quantization, multi-GPU training, and ROUGE-L evaluation.
-
-**Tech:** Python, PyTorch, Hugging Face, LoRA, QLoRA, Accelerate, ROUGE
+**Tech:** Python, PyTorch, Hugging Face, LoRA, QLoRA, Accelerate
 
 ---
 
 ### 3. [Agentic Hyperparameter Tuning](https://github.com/bacemkarray/agentic-hpt)
 
 An autonomous hyperparameter tuning framework orchestrated with LangGraph. Parallel worker nodes tune individual neural-network hyperparameters while an LLM-powered coordinator analyzes results and decides whether to continue tuning or finalize training.
-
-**Why it matters:** This project applies agentic control to a real ML workflow. It combines graph-based orchestration, experiment tracking, optimization, and LLM decision-making into a modular training pipeline.
 
 **Tech:** Python, LangGraph, PyTorch, Optuna, MLflow, OpenAI API
 
@@ -42,17 +34,13 @@ An autonomous hyperparameter tuning framework orchestrated with LangGraph. Paral
 
 A minimal retrieval-augmented generation prototype built without high-level orchestration frameworks. It implements raw document parsing, chunking, embeddings, vector search, query rewriting, conversation memory, and response generation.
 
-**Why it matters:** This project breaks RAG down to its core systems-level components. It gave me a clearer understanding of why frameworks like LangChain and LangGraph exist, and what architectural complexity they help manage.
-
-**Tech:** Python, ChromaDB, sentence-transformers, OpenAI API, vector search
+**Tech:** Python, ChromaDB, sentence-transformers, OpenAI API
 
 ---
 
 ### 5. [ASL to English Translator](https://github.com/bacemkarray/asl-to-english-translator)
 
 A real-time American Sign Language to English translation tool built during York University's CTRL+HACK+DEL hackathon. It uses computer vision and machine learning to detect ASL gestures and convert them into English text.
-
-**Why it matters:** This project applies AI to accessibility-focused interaction. It combines real-time video processing, gesture recognition, and a simple user interface into a working hackathon prototype.
 
 **Tech:** Python, OpenCV, MediaPipe, TensorFlow, Flask
 
